@@ -1,3 +1,24 @@
 html, body {
     font-family: "Lato", sans-serif;
 }
+
+img {
+  width: 540px;
+  height: 720px;
+}
+
+ul.sidebar_list {
+  width: 60%;
+  margin: 2em auto 2em auto;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
