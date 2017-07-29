@@ -1,24 +1,42 @@
-html, body {
+/* ----------------------------------------
+----------NAV BAR -----------------------*/
+
+.navbar.navbar-default {
     font-family: "Lato", sans-serif;
+    background-color: #fff;
+    margin-bottom: 0;
 }
 
-img {
-  width: 540px;
-  height: 720px;
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 300;
 }
 
 ul.sidebar_list {
-  width: 60%;
-  margin: 2em auto 2em auto;
+    width: 60%;
+    margin: 2em auto 2em auto;
 }
 
-ul, li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
+/*ul, li {              nao precisa cat, isso é de default do Bootstrap
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}*/
 
 ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 40px;
+    margin: 1em 0;
+    padding: 0 0 0 40px;
 }
+
+
+/* ----------------------------------------
+----------SLIDE SHOW ----------------------*/
+
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
